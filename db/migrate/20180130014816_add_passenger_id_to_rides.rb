@@ -1,6 +1,6 @@
 class AddPassengerIdToRides < ActiveRecord::Migration
   def change
-    change_table :posts do |t|
+    change_table :rides do |t|
       t.integer :passenger_id
     end
   end
