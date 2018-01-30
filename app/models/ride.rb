@@ -1,3 +1,3 @@
 class Ride < ActiveRecord::Base
-  has_one :passenger
+  belongs_to :passenger
 end
